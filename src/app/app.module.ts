@@ -4,9 +4,14 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
+import { ChatsPage } from '../pages/chats/chats';
+import { GroupsPage } from '../pages/groups/groups';
+import { NotificationPage } from '../pages/notification/notification';
+import { ProfilePage } from '../pages/profile/profile';
+import { SettingsPage } from '../pages/settings/settings';
+import { RequestPage } from '../pages/request/request';
 import { TabsPage } from '../pages/tabs/tabs';
+import { LoginPage } from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,8 +20,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     AboutPage,
-    ContactPage,
-    HomePage,
+    ChatsPage,
+    GroupsPage,
+    NotificationPage,
+    ProfilePage,
+    SettingsPage,
+    RequestPage,
+    LoginPage,
     TabsPage
   ],
   imports: [
@@ -27,8 +37,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     AboutPage,
-    ContactPage,
-    HomePage,
+    ChatsPage,
+    GroupsPage,
+    NotificationPage,
+    ProfilePage,
+    SettingsPage,
+    RequestPage,
+    LoginPage,
     TabsPage
   ],
   providers: [
